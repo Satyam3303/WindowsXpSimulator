@@ -1,0 +1,43 @@
+.music-player {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 4px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .music-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .music-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .music-artist {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .music-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .control-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .control-btn:hover {
+    background-color: #555;
+  }
+  

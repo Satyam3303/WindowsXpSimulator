@@ -1,0 +1,72 @@
+.minesweeper {
+    text-align: center;
+    width: 30%;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    border-radius: 20px;
+    background-color: #ccc;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .board {
+    display: inline-block;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .hidden {
+    background-color: #bbb;
+    color: #bbb;
+  }
+  
+  .revealed {
+    background-color: #ddd;
+  }
+  
+  .flagged {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .status {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .won {
+    color: green;
+  }
+  
+  .lost {
+    color: red;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
